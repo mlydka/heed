@@ -1,0 +1,174 @@
+body, input, textarea, select {
+    color: #000000;
+    font: 14px/18px Arial,Helvetica,sans-serif;
+}
+
+body {
+    background: none repeat scroll 0 0 #000000;
+    min-width: 1000px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a img {
+    border: medium none;
+}
+
+ul, ol, dl {
+  list-style: none outside none;
+  margin-left: 20px;
+}
+
+#container {
+    background: url("/images/background.gif") repeat-x scroll 0 0 #FFFFFF;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+#header {
+    height: 90px;
+    padding: 35px 15px 0 0;
+}
+
+#logo {
+    float: left;
+    padding: 0 0 0 8px;
+}
+
+#logo, #logo a {
+    color: #AA2029;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+#navigation {
+    background: url("/images/ver.gif") no-repeat scroll right 5px transparent;
+    float: right;
+    margin: 0 8px 0 0;
+    padding: 5px 20px 0 0;
+    position: relative;
+    z-index: 99999;
+    display: block;
+}
+
+#navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li {
+    background: url("/images/ver.gif") no-repeat scroll 0 0 transparent;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+    padding: 5px 9px 0;
+}
+
+#navigation ul li a {
+    color: #3E3E3E;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 100%;
+    position: relative;
+}
+
+#navigation ul li a b {
+    display: block;
+    padding: 4px 13px 11px;
+}
+
+#navigation ul li a:hover {
+    background: url("/images/menu-hover-right.gif") no-repeat scroll right 0 transparent;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#navigation ul li a:hover b {
+  background: url("/images/menu-hover-left.gif") no-repeat scroll 0 0 transparent;
+}
+
+#navigation ul li a span {
+    color: #AEAEAE;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: 1em;
+    margin: -3px 0 0;
+    padding: 0;
+}
+
+.entry-content {
+    clear: both;
+    padding: 0 0 8px;
+}
+
+.entry-content p {
+    line-height: 1.4em;
+    margin: 0;
+    padding: 0 0 8px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 980px;
+}
+
+.clear {
+  clear: both;
+}
+
+#slider {
+    clear: both;
+    height: 423px;
+}
+
+#slider .wrapper {
+    clear: both;
+}
+
+#custom {
+    background: url("/images/custom.gif") repeat-x scroll 0 0 transparent;
+    clear: both;
+    color: #212121;
+    font-size: 24px;
+    height: 137px;
+    position: relative;
+}
+
+#custom .wrapper {
+    clear: both;
+}
+
+#custom p {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 33px 0 6px;
+}
+
+#custom .entry-content {
+    padding: 35px 6px 0 0;
+}
+
+#content {
+    background: none repeat scroll 0 0 #F9F9F9;
+    clear: both;
+    padding: 21px 0 67px 25px;
+}
+
+#custom .wrapper {
+    clear: both;
+}
+
+
+#content .wrapper {
+    width: 1000px;
+    clear: both;
+}

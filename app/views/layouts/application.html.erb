@@ -2,17 +2,41 @@
 <html>
   <head>
     <title>Heed</title>
-    <%= stylesheet_link_tag "main.css" %>
+    <%= stylesheet_link_tag "reset.css", "main.css" %>
     <%= javascript_include_tag "jquery-1.6.2.min.js", "application.js" %>
     <%= csrf_meta_tag %>
   </head>
   <body>
-    <div id="messages">
-      <%= render :partial => "layouts/flash_messages" %>
-    </div>
+    <div id="container">
+      <div class="wrapper">
+        <div id="header">
+          <%= render :partial => "layouts/header" %>         
+        </div>
+      </div>
 
-    <div id="content">
-      <%= yield %>
+      <div id="slider">
+        <div class="wrapper">
+          <%= image_tag("slider.gif", :style => "margin-top:50px;" ) %>
+        </div>
+      </div>
+
+      <div id="custom">
+        <div class="wrapper">
+          <div class="entry-content">
+            <p>
+              Our Company is a professional ... 
+              <br />
+              ... specialized in Ruby on Rails applications
+            </p>
+          </div
+        </div>
+      </div>
+
+      <div id="content">
+        <div class="wrapper">
+          <%= yield %>
+        </div>
+      </div>
     </div>
   </body>
 </html>
