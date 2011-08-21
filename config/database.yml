@@ -1,0 +1,8 @@
+development:
+  adapter: mysql2
+  database: heed_development
+  username: root
+  password: mysql07
+  host: localhost
+  encoding: utf8
+  socket: /var/run/mysqld/mysqld.sock
