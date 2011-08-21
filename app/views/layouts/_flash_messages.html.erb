@@ -1,0 +1,11 @@
+<% if flash[:notice] %>
+  <div id="flash_notice">
+    <%= flash[:notice] %>
+  </div>
+<% end %>
+
+<% if flash[:error] %>
+  <div id="flash_error">
+    <%= flash[:error] %>
+  </div>
+<% end %>
