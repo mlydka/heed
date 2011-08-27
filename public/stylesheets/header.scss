@@ -1,0 +1,31 @@
+#header {
+    margin: 0 auto;
+    overflow: hidden;
+    width: $page-width;
+    height: 85px;
+    background: url("/images/bg.jpg") no-repeat scroll 50% 100% transparent;
+
+    h2 {
+       float: left;
+       margin: 5px 0 0 45px;
+    }
+
+    ul {
+       display: inline;
+       float: right;
+       margin: 40px 45px 0 0;
+    }
+
+    li {
+       display: inline;
+
+       a {
+       	 float: left;
+	 margin-left: 30px;
+	 padding: 0;
+	 text-decoration: none;
+
+         &:hover { color: $hover-color; }
+       }
+    }
+}
