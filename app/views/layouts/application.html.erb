@@ -7,36 +7,21 @@
     <%= csrf_meta_tag %>
   </head>
   <body>
-    <div id="container">
-      <div class="wrapper">
-        <div id="header">
-          <%= render :partial => "layouts/header" %>         
-        </div>
-      </div>
-
-      <div id="slider">
-        <div class="wrapper">
-          <%= image_tag("slider.gif", :style => "margin-top:50px;" ) %>
-        </div>
-      </div>
-
-      <div id="custom">
-        <div class="wrapper">
-          <div class="entry-content">
-            <p>
-              Our Company is a professional ... 
-              <br />
-              ... specialized in Ruby on Rails applications
-            </p>
-          </div
-        </div>
-      </div>
-
-      <div id="content">
-        <div class="wrapper">
-          <%= yield %>
-        </div>
-      </div>
+    <div id="header">
+      <h2><a href=""><img src="images/logo.jpg" width="72" height="65" /></a></h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">Who we are</a></li>
+        <li><a href="/">What we do</a></li>
+        <li><a href="/">How we do it</a></li>
+        <li><a href="/">Why choose us</a></li>
+        <li><a href="/">See our work</a></li>
+      </ul>
     </div>
+
+    <div class="wrapper">
+      <%= yield %>
+    </div>
+
   </body>
 </html>
