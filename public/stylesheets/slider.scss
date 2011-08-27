@@ -1,0 +1,42 @@
+$slider-height: 300px;
+
+#slider {
+  width: $page-width;
+  height: $slider-height;
+  display: block;
+  position: relative;
+  clear: both;
+}
+
+.coda-slider-wrapper {
+   clear: both;
+   overflow: auto;
+   width: $page-width;
+
+  .coda-slider {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: $page-width;
+
+    .panel-container {
+      position: relative;
+      width: $page-width;
+    }
+
+    .panel {
+        width: $page-width;
+        height: $slider-height;
+        padding: 20px 0;
+	display: block;
+	float: left;
+
+        img {
+	  float: left;
+	  margin: 0;
+	  padding: 0 !important;
+	  position: relative;
+	}
+    }
+  }
+}

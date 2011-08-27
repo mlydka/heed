@@ -6,3 +6,61 @@ body {
 a {
   color: #333333;
   text-decoration: none; }
+
+#wrapper {
+  width: 980px;
+  margin: 0 auto;
+  position: relative; }
+
+#header {
+  overflow: hidden;
+  width: 940px;
+  height: 85px;
+  background: url("/images/bg.jpg") no-repeat scroll 50% 100% transparent; }
+  #header h2 {
+    float: left;
+    margin: 5px 0 0 45px; }
+  #header ul {
+    display: inline;
+    float: right;
+    margin: 40px 45px 0 0; }
+  #header li {
+    display: inline; }
+    #header li a {
+      float: left;
+      margin-left: 30px;
+      padding: 0;
+      text-decoration: none; }
+      #header li a:hover {
+        color: black; }
+
+#slider {
+  width: 940px;
+  height: 300px;
+  display: block;
+  position: relative;
+  clear: both; }
+
+.coda-slider-wrapper {
+  clear: both;
+  overflow: auto;
+  width: 940px; }
+  .coda-slider-wrapper .coda-slider {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 940px; }
+    .coda-slider-wrapper .coda-slider .panel-container {
+      position: relative;
+      width: 940px; }
+    .coda-slider-wrapper .coda-slider .panel {
+      width: 940px;
+      height: 300px;
+      padding: 20px 0;
+      display: block;
+      float: left; }
+      .coda-slider-wrapper .coda-slider .panel img {
+        float: left;
+        margin: 0;
+        padding: 0 !important;
+        position: relative; }

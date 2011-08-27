@@ -1,11 +1,11 @@
 $main-color : #333;
 $hover-color: #000;
-$page-width : 980px;
+$page-width : 940px;
 
 body {
-    background: none repeat scroll 0 0 #ffffff;
-    font: 12px/18px "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
-    color: $main-color;
+  background: none repeat scroll 0 0 #ffffff;
+  font: 12px/18px "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+  color: $main-color;
 }
 
 a {
@@ -13,4 +13,12 @@ a {
   text-decoration: none;
 }
 
+#wrapper {
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+}
+
 @import "header";
+
+@import "slider";
