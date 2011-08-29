@@ -6,12 +6,14 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.10'
 
 gem 'mysql2', '~> 0.2.7'
-gem 'thin'
 
 gem 'sass'
 
 # Use unicorn as the web server
 # gem 'unicorn'
+
+gem 'thin'
+gem 'rack', '1.2.3'
 
 # Deploy with Capistrano
 # gem 'capistrano'
