@@ -36,7 +36,7 @@ a {
 
 #slider {
   width: 940px;
-  height: 300px;
+  height: 500px;
   display: block;
   position: relative;
   clear: both; }
@@ -55,7 +55,7 @@ a {
       width: 940px; }
     .coda-slider-wrapper .coda-slider .panel {
       width: 940px;
-      height: 300px;
+      height: 500px;
       padding: 20px 0;
       display: block;
       float: left; }
