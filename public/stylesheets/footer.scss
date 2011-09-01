@@ -1,0 +1,25 @@
+#footer {
+    overflow: hidden;
+    width: $page-width;
+    margin-top: 25px;
+    padding: 10px;
+
+    p {
+      padding: 10px 0;
+      text-align: center;
+      font-size: 42px;
+      font-weight: bold;
+      letter-spacing: 20px;
+    }
+
+    #menu {
+      width: 300px;
+      padding: 10px;
+      margin: 25px auto;
+      display: block;
+
+      img {
+        padding: 0 10px;
+      }
+    }
+}

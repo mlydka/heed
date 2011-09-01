@@ -19,7 +19,7 @@ a {
   background: url("/images/bg.jpg") no-repeat scroll 50% 100% transparent; }
   #header h2 {
     float: left;
-    margin: 5px 0 0 45px; }
+    margin: 5px 0 0 0px; }
   #header ul {
     display: inline;
     float: right;
@@ -64,3 +64,22 @@ a {
         margin: 0;
         padding: 0 !important;
         position: relative; }
+
+#footer {
+  overflow: hidden;
+  width: 940px;
+  margin-top: 25px;
+  padding: 10px; }
+  #footer p {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 20px; }
+  #footer #menu {
+    width: 300px;
+    padding: 10px;
+    margin: 25px auto;
+    display: block; }
+    #footer #menu img {
+      padding: 0 10px; }
