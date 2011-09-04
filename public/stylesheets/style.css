@@ -42,34 +42,23 @@ a {
 
 #slider {
   width: 940px;
-  height: 500px;
+  height: 400px;
   display: block;
   position: relative;
-  clear: both; }
-
-.coda-slider-wrapper {
-  clear: both;
-  overflow: auto;
-  width: 940px; }
-  .coda-slider-wrapper .coda-slider {
-    float: left;
-    overflow: hidden;
+  overflow: hidden; }
+  #slider #slideshow {
     position: relative;
-    width: 940px; }
-    .coda-slider-wrapper .coda-slider .panel-container {
-      position: relative;
-      width: 940px; }
-    .coda-slider-wrapper .coda-slider .panel {
-      width: 940px;
-      height: 500px;
-      padding: 20px 0;
-      display: block;
-      float: left; }
-      .coda-slider-wrapper .coda-slider .panel img {
-        float: left;
-        margin: 0;
-        padding: 0 !important;
-        position: relative; }
+    height: 400px;
+    overflow: hidden; }
+    #slider #slideshow img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 8; }
+    #slider #slideshow img.active {
+      z-index: 10; }
+    #slider #slideshow img.last-active {
+      z-index: 9; }
 
 #gallery {
   /* CSS3 Box Shadow */

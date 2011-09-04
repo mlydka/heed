@@ -1,42 +1,30 @@
-$slider-height: 500px;
+$slider-height: 400px;
 
 #slider {
   width: $page-width;
   height: $slider-height;
   display: block;
   position: relative;
-  clear: both;
-}
+  overflow: hidden;
 
-.coda-slider-wrapper {
-   clear: both;
-   overflow: auto;
-   width: $page-width;
-
-  .coda-slider {
-    float: left;
-    overflow: hidden;
+  #slideshow {
     position: relative;
-    width: $page-width;
+    height: $slider-height;
+    overflow: hidden;
 
-    .panel-container {
-      position: relative;
-      width: $page-width;
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 8;
     }
 
-    .panel {
-        width: $page-width;
-        height: $slider-height;
-        padding: 20px 0;
-	display: block;
-	float: left;
+    img.active {
+      z-index: 10;
+    }
 
-        img {
-	  float: left;
-	  margin: 0;
-	  padding: 0 !important;
-	  position: relative;
-	}
+    img.last-active {
+      z-index: 9;
     }
   }
 }
