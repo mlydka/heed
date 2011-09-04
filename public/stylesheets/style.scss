@@ -14,13 +14,22 @@ a {
 }
 
 #wrapper {
-  width: 980px;
+  width: $page-width;
   margin: 0 auto;
   position: relative;
 }
 
 @import "header";
 
+#content {
+  width: $page-width;
+  margin:15px auto;
+  text-align:center;
+  position:relative;
+}
+
 @import "slider";
+
+@import "gallery";
 
 @import "footer";
