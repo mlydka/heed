@@ -129,10 +129,10 @@ a {
     font-size: 42px;
     font-weight: bold;
     letter-spacing: 20px; }
-  #footer #menu {
+  #footer #jq-menu {
     width: 300px;
     padding: 10px;
     margin: 25px auto;
     display: block; }
-    #footer #menu img {
+    #footer #jq-menu img {
       padding: 0 10px; }
