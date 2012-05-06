@@ -5,8 +5,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.2.3'
 
-gem 'mysql2', '~> 0.2.7'
-
+gem 'mysql2',  '~> 0.3.11'
 gem 'sass'
 
 # Use unicorn as the web server
