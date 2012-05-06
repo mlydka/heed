@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'rails', '3.0.10'
+gem 'rails', '3.2.3'
 
 gem 'mysql2', '~> 0.2.7'
 
@@ -13,7 +13,6 @@ gem 'sass'
 # gem 'unicorn'
 
 gem 'thin'
-gem 'rack', '1.2.3'
 
 # Deploy with Capistrano
 # gem 'capistrano'
