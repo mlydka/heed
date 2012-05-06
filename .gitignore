@@ -1,5 +1,6 @@
 .bundle
 .sass-cache
+Gemfile.lock
 db/*.sqlite3
 log/*.log
 config/*.yml
