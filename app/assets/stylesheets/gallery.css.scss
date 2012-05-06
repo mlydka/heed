@@ -15,7 +15,7 @@
 	
 	border:1px solid white;
 	
-	background:url(/images/gallery/panel.jpg) repeat-x bottom center #ffffff;
+	background:url(/assets/gallery/panel.jpg) repeat-x bottom center #ffffff;
 	
 	/* The width of the gallery */
 	width:$page-width - 2;
@@ -54,12 +54,12 @@
 
 	    li.inact:hover{
 		/* The inactive state, highlighted on mouse over */
-		background:url(/images/gallery/pic_bg.png) repeat;
+		background:url(/assets/gallery/pic_bg.png) repeat;
 	    }
 
 	    li.act, li.act:hover {
 		/* The active state of the thumb */
-		background:url(/images/gallery/active_bg.png) no-repeat;
+		background:url(/assets/gallery/active_bg.png) no-repeat;
 	    }
 
 	    li.act a {
@@ -69,12 +69,12 @@
 	    .fbar{
 		/* The left-most vertical bar, next to the first thumbnail */
 		width:2px;
-		background:url(/images/gallery/divider.png) no-repeat right;
+		background:url(/assets/gallery/divider.png) no-repeat right;
 	    }
 
 	    li a {
 		display:block;
-		background:url(/images/gallery/divider.png) no-repeat right;
+		background:url(/assets/gallery/divider.png) no-repeat right;
 		height:35px;
 		padding-top:10px;
 	    }

@@ -6,12 +6,22 @@ source 'http://rubygems.org'
 gem 'rails', '3.2.3'
 
 gem 'mysql2',  '~> 0.3.11'
-gem 'sass'
 
 # Use unicorn as the web server
 # gem 'unicorn'
 
 gem 'thin'
+
+# Gems used only for assets and not required
+# in production environments by default.
+group :assets do
+  gem 'therubyracer'
+  gem 'execjs'
+  gem 'sass-rails'
+  gem 'uglifier'
+end
+
+gem 'jquery-rails'
 
 # Deploy with Capistrano
 # gem 'capistrano'
