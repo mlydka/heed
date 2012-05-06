@@ -6,6 +6,8 @@
 
 var Application = {
     init: function() {
+      jQuery('#jq-menu').jqDock();
+      jQuery('#slideshow').simpleSlider();
     }
 };
 
