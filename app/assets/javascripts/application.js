@@ -1,4 +1,5 @@
 //= require jquery
+//= require bootstrap
 //= require jquery-ui
 //= require jquery.jqDock.min
 //= require simpleSlider
