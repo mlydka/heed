@@ -1,17 +1,20 @@
 //= require jquery
 //= require bootstrap
-//= require jquery-ui
+//= require bootstrap-carousel
 //= require jquery.jqDock.min
-//= require simpleSlider
 //= require gallery
 
 var Application = {
     init: function() {
-      jQuery('#jq-menu').jqDock();
-      jQuery('#slideshow').simpleSlider();
+	Application.homepage_carousel();
+	jQuery('#jq-menu').jqDock();
+    },
+    
+    homepage_carousel: function() {
+	$('#homeCarousel').carousel( { interval: 4000 } );
     }
 };
 
 $(document).ready(function(){
-  Application.init();
+    Application.init();
 });
